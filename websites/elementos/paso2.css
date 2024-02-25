@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,100,121,1) 38%, rgba(3,155,176,1) 100%);
+}
+
+form {
+    color:#fff;
+    font-size: 17px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.titulo {
+    color:#000;
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+    margin-bottom: 8px;
+    max-width: 400px;
+    margin: auto;
+    text-decoration: underline;
+}
+
+label {
+    margin-right: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.input {
+    display: block;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin: 5px auto;
+    margin-bottom: 7px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border:0;
+    box-shadow: 4px 3px 4px rgb(45, 48, 49);
+}
+
+.radio2 {
+    margin-bottom: 8px;
+}
+
+.envio {
+    color: #095161;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    max-width: 280px;
+    padding: 3px;
+    border:0;
+    border-radius: 3px;
+}
+
+.envio:hover {
+    border: 5px inset #d40fb3;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.opciones {
+    font-family: 'Varela Round', sans-serif;
+}
+
+::placeholder {
+    color: rgba(21, 58, 84, .8);
+    font-family: 'Varela Round', sans-serif;
+}

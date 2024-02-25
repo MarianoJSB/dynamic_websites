@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" href="Imagenes/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Perfil</title>
+</head>
+
+<body class="Formulario">
+
+ <form action="perfil.php" method="get">
+
+      <h1><span class="f">F</span>ormulario de perfil</h1>
+
+      <label class="label">Usuario</label>
+      <input type="text" name="usuario" minlength="5" class="input" placeholder="Ingrese nombre de usuario">
+
+      <label class="label">Nombre y apellido</label>
+      <input type="text" name="nombre" minlength="1" class="input" placeholder="Ingrese su nombre y apellido">
+
+      <label class="label">Edad</label>
+      <input type="number" name="edad" min="1" max="110" class="input" placeholder="Ingrese su edad">
+
+      <label class="label">Biografia</label>
+      <textarea name="biografia" minlength="1" maxlength="100"  cols="15" rows="7" class="input" placeholder="Biografia"></textarea>
+
+      <label class="label">Color</label>
+      <input type="color" name="color" class="input_color">
+
+      <label class="label">email</label>
+      <input type="email" name="email" class="input" placeholder="Ingrese su email">
+
+      <label class="label">Fecha de cumpleaños</label>
+      <input type="date" name="fecha" class="input" placeholder="Ingrese su fecha de cumpleaños">
+
+      <label class="label">Nacionalidad</label>
+      <input type="text" name="nacionalidad" class="input" placeholder="Ingrese su nacionalidad">
+
+      <label class="label">Sexo</label>
+      <div class="sexo">
+      <input type="radio" name="sexo" value="femenino" id="1" style="visibility:hidden">
+      <label for="1">Femenino</label>
+
+      <input type="radio" name="sexo" value="masculino" id="2" style="visibility:hidden">
+      <label for="2">Masculino</label>
+      </div>
+
+      <input type="submit" name="enviar" class="envio">
+
+ </form>
+
+</body>
+</html>

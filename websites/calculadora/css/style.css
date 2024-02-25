@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	background-color: darkslategrey;
+}
+
+h1{
+	font-size:3em;
+	text-align: center;
+	background:linear-gradient( 180deg, #e04e0f, #0fd1df);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color:transparent;
+}
+
+h1:hover{
+	background:linear-gradient( 180deg,#0fd1df, #e04e0f);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color:transparent;
+}
+
+.numeros{
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:5px;
+	width:30%;
+	font-size:1em;
+	color:darkseagreen;
+	border: 5px groove darkseagreen;
+	background-color:darkslategrey;
+	font-weight: bolder;
+	box-shadow:0 14px 28px rgba(0,0,0,0.19);
+	display:block;
+}
+
+::placeholder{
+	text-align: center;
+	color:darkseagreen;
+}
+
+.texto1{
+	text-align: center;
+	font-size:1.5em;
+	color:white;
+	font-weight: bold;
+	text-shadow: 2px -2px darkseagreen;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:block;
+}
+
+.ope{
+	font-size:2em;
+	color:white;
+	margin-top:10px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	background:linear-gradient( 180deg,#0fd1df, #e04e0f);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color:transparent;
+	margin-bottom:15px;
+}
+
+.ope:hover{
+	background:linear-gradient( 180deg, #e04e0f, #0fd1df);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color:transparent;
+}
+
+.imagenes{
+	margin-top: 10px;
+	text-align:center;
+	display:block;
+	margin-bottom: 10px;
+}
+
+label img{
+	width: auto;
+	height: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+label img:hover{
+	transition:0.4s ease;
+	transform:scale(0.9);
+	cursor:pointer;
+}
+
+.envio{
+	margin:auto;
+	margin-top:15px;
+	display:block;
+	padding:3px;
+	width:13%;
+	color:darkseagreen;
+	background-color:darkslategrey;
+	border: 5px groove darkseagreen;
+	font-size:1em;
+	font-weight: bold;
+	box-shadow:0 14px 28px rgba(0,0,0,0.19);
+	margin-bottom: 10px;
+}
+
+.envio:hover{
+	transition:0.4s ease;
+	transform:scale(0.9);
+	cursor:pointer;
+}
+
+p{
+	color:white;
+	text-shadow: 2px -2px darkseagreen;
+	margin-top: 13px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+@media screen and (max-width:400px){
+	.numeros{
+		width:90%;
+	}
+	label img{
+		margin:13px;
+	}
+	.envio{
+		width:90%;
+	}
+}

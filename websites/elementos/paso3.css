@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,84,1) 38%, rgba(3,176,136,1) 100%);
+}
+
+p {
+    color: #000;
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 8px;
+    max-width: 400px;
+    text-decoration: underline;
+}
+
+ul {
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    padding: auto;
+    margin: auto;
+    list-style-image: url('img/261778.ico');
+}
+
+li {
+    font-family: 'Varela Round', sans-serif;
+    background:rgba(42, 42, 43, 0.315);
+    margin: auto;
+    margin-top: 20px;
+    padding: 4px;
+    width: 90%;
+    max-width: 250px;
+    text-align: center;
+    border-bottom: 10px solid rgba(23, 42, 26, 0.664);
+}
+
+li:hover {
+    border-bottom: 4px solid #fff;
+    color: rgba(9, 191, 63, 0.929);
+}
+
+ol {
+    font-family: 'Varela Round', sans-serif;
+    margin:auto;
+    padding: auto;
+    color:white;
+    list-style-type: upper-roman;
+}
